@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 768">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8DCC0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1152" height="768" fill="url(#bgGrad)"/>
+  
+  <!-- Large leaves in background -->
+  <path d="M200 400 Q150 350 100 400 Q150 450 200 400" fill="#E8DCC0" opacity="0.6"/>
+  <path d="M950 350 Q900 300 850 350 Q900 400 950 350" fill="#E8DCC0" opacity="0.6"/>
+  
+  <!-- Tree trunks -->
+  <rect x="80" y="0" width="60" height="768" fill="#8B7355" opacity="0.3"/>
+  <rect x="280" y="0" width="50" height="768" fill="#8B7355" opacity="0.3"/>
+  <rect x="1020" y="0" width="55" height="768" fill="#8B7355" opacity="0.3"/>
+  
+  <!-- Vines -->
+  <path d="M120 0 Q140 100 130 200 T120 400 T130 600 T120 768" stroke="#2E7D32" stroke-width="8" fill="none" opacity="0.6"/>
+  <path d="M900 0 Q880 150 890 300 T900 500 T890 700 T900 768" stroke="#4CAF50" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M450 0 Q470 120 460 250 T450 450 T460 650 T450 768" stroke="#66BB6A" stroke-width="5" fill="none" opacity="0.5"/>
+  
+  <!-- Top canopy - dark green -->
+  <ellipse cx="150" cy="50" rx="200" ry="120" fill="#2E5C3A" opacity="0.8"/>
+  <ellipse cx="400" cy="30" rx="180" ry="100" fill="#1B5E20" opacity="0.8"/>
+  <ellipse cx="700" cy="60" rx="220" ry="130" fill="#2E5C3A" opacity="0.8"/>
+  <ellipse cx="1000" cy="40" rx="190" ry="110" fill="#1B5E20" opacity="0.8"/>
+  
+  <!-- Mid-level canopy - medium green -->
+  <ellipse cx="50" cy="100" rx="150" ry="90" fill="#388E3C" opacity="0.7"/>
+  <ellipse cx="300" cy="120" rx="170" ry="100" fill="#4CAF50" opacity="0.7"/>
+  <ellipse cx="600" cy="90" rx="200" ry="110" fill="#388E3C" opacity="0.7"/>
+  <ellipse cx="900" cy="110" rx="180" ry="95" fill="#4CAF50" opacity="0.7"/>
+  <ellipse cx="1100" cy="100" rx="160" ry="85" fill="#388E3C" opacity="0.7"/>
+  
+  <!-- Floating leaves -->
+  <path d="M730 20 Q720 15 710 20 Q720 25 730 20" fill="#9CCC65"/>
+  <path d="M1090 30 Q1080 25 1070 30 Q1080 35 1090 30" fill="#AED581"/>
+  <path d="M450 140 Q440 135 430 140 Q440 145 450 140" fill="#9CCC65"/>
+  
+  <!-- Bottom foliage - large dark leaves -->
+  <path d="M50 600 Q20 550 0 600 L0 768 L100 768 Q80 680 50 600" fill="#1B5E20" opacity="0.9"/>
+  <path d="M120 650 Q90 600 70 650 Q90 700 120 650" fill="#2E5C3A" opacity="0.9"/>
+  <path d="M180 680 L200 640 L230 680 L200 720 Z" fill="#1B5E20" opacity="0.9"/>
+  
+  <!-- Bottom foliage - medium green leaves -->
+  <path d="M300 620 Q270 580 250 620 Q270 660 300 620" fill="#388E3C"/>
+  <ellipse cx="400" cy="680" rx="80" ry="100" fill="#4CAF50"/>
+  <path d="M500 650 L520 610 L550 650 L520 690 Z" fill="#388E3C"/>
+  <ellipse cx="650" cy="700" rx="90" ry="110" fill="#66BB6A"/>
+  
+  <!-- Bottom foliage - light green accents -->
+  <path d="M750 660 Q720 630 700 660 Q720 690 750 660" fill="#81C784"/>
+  <ellipse cx="850" cy="690" rx="70" ry="90" fill="#9CCC65"/>
+  <path d="M950 640 L970 600 L1000 640 L970 680 Z" fill="#AED581"/>
+  
+  <!-- Bottom foliage - right side dark leaves -->
+  <path d="M1050 680 L1070 640 L1100 680 L1070 720 Z" fill="#2E5C3A" opacity="0.9"/>
+  <path d="M1100 650 Q1130 600 1152 650 L1152 768 L1050 768 Q1070 700 1100 650" fill="#1B5E20" opacity="0.9"/>
+  
+  <!-- Palm-like fan leaves bottom left -->
+  <g transform="translate(30, 700)">
+    <path d="M0 0 L-20 -40 L-15 0 Z" fill="#1B5E20" opacity="0.8"/>
+    <path d="M0 0 L-10 -45 L-5 0 Z" fill="#2E5C3A" opacity="0.8"/>
+    <path d="M0 0 L0 -50 L5 0 Z" fill="#1B5E20" opacity="0.8"/>
+    <path d="M0 0 L10 -45 L15 0 Z" fill="#2E5C3A" opacity="0.8"/>
+    <path d="M0 0 L20 -40 L25 0 Z" fill="#1B5E20" opacity="0.8"/>
+  </g>
+  
+  <!-- Palm-like fan leaves bottom right -->
+  <g transform="translate(1120, 720)">
+    <path d="M0 0 L-15 -35 L-10 0 Z" fill="#1B5E20" opacity="0.8"/>
+    <path d="M0 0 L-7 -40 L-3 0 Z" fill="#2E5C3A" opacity="0.8"/>
+    <path d="M0 0 L0 -45 L4 0 Z" fill="#1B5E20" opacity="0.8"/>
+    <path d="M0 0 L7 -40 L11 0 Z" fill="#2E5C3A" opacity="0.8"/>
+    <path d="M0 0 L15 -35 L19 0 Z" fill="#1B5E20" opacity="0.8"/>
+  </g>
+  
+  <!-- Broad leaves bottom -->
+  <ellipse cx="200" cy="730" rx="60" ry="40" fill="#4CAF50" opacity="0.9"/>
+  <ellipse cx="550" cy="750" rx="70" ry="45" fill="#66BB6A" opacity="0.9"/>
+  <ellipse cx="900" cy="740" rx="65" ry="42" fill="#4CAF50" opacity="0.9"/>
+</svg>
