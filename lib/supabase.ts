@@ -24,6 +24,20 @@ export type CommunityPost = {
   longitude: number | null
   created_at: string
   updated_at: string
+  // Post type
+  post_type?: 'species' | 'quest' | 'progress'
+  // Quest-related fields
+  quest_id?: string | null
+  quest_name?: string | null
+  quest_description?: string | null
+  quest_reflection?: string | null
+  objectives?: any | null
+  notes?: string | null
+  stats_data?: any | null
+  // Progress-related fields
+  user_level?: number | null
+  user_exp?: number | null
+  user_points?: number | null
   users?: {
     name: string | null
     profile_image: string | null
