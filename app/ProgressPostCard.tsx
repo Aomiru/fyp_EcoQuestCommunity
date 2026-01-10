@@ -85,7 +85,7 @@ export default function ProgressPostCard({
 
     return (
         <article
-            className="bg-white rounded-3xl shadow-xl overflow-hidden max-w-2xl mx-auto mb-8 hover:shadow-2xl transition-shadow duration-300"
+            className="bg-white rounded-3xl shadow-xl overflow-hidden max-w-3xl mx-auto mb-8 hover:shadow-2xl transition-shadow duration-300"
         >
             {/* Header */}
             <div className="p-5 flex items-center justify-between border-b border-gray-100">
